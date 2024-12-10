@@ -11,3 +11,10 @@ models:
           - not_null
       - name: name
         description: random name
+
+  - name: model_version
+    latest_version: 2
+    columns:
+      - name: id
+      - name: name
+      - name: color
