@@ -13,7 +13,7 @@ models:
         description: random name
 
   - name: model_version
-    latest_version: 2
+    description: just nothing
     columns:
       - name: id
       - name: name
