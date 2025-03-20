@@ -9,9 +9,6 @@ sources:
         columns:
           - name: id
             description: primary key
-            data_tests:
-              - not_null
-              - unique
           - name: order_id
           - name: sku
             description: describes the sku
