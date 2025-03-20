@@ -9,7 +9,6 @@ sources:
         columns:
           - name: id
             description: primary key
-
           - name: order_id
           - name: sku
             description: describes the sku
