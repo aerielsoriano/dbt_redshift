@@ -5,7 +5,7 @@ sources:
     database: dev
     schema: jaffle_shop_raw
     tables:
-      - name: items
+      - name: raw_items
         columns:
           - name: id
             description: primary key
