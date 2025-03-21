@@ -1,0 +1,21 @@
+version: 2
+
+sources:
+  - name: jaffle_shop
+    database: dev
+    schema: jaffle_shop_raw
+    tables:
+      - name: raw_items
+        columns:
+          - name: id
+            description: primary key
+          - name: order_id
+          - name: sku
+            description: describes the sku
+
+  - name: baz
+    database: sources_only
+    schema: public
+    tables:
+      - name: source_baz
+        description: baz
