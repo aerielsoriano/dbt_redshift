@@ -7,3 +7,6 @@ sources:
     tables:
       - name: source_baz
         description: baz
+        columns:
+          - name: id
+            description: primary key
