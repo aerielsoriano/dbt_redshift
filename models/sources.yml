@@ -12,3 +12,10 @@ sources:
           - name: order_id
           - name: sku
             description: describes the sku
+
+  - name: baz
+    database: sources_only
+    schema: public
+    tables:
+      - name: source_baz
+        description: baz
