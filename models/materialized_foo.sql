@@ -1,6 +1,6 @@
 {{ config(
     materialized="materialized_view",
-    on_configuration_change="apply",
+    on_schema_change="fail",
     backup=false
 ) }}
 
