@@ -1,9 +1,9 @@
 {{ config(
     materialized="materialized_view",
-    on_configuration_change="continue",
+    on_configuration_change="apply",
     backup=false
 ) }}
 
 select
     *
-from {{ source('jaffle_shop', 'raw_items') }}
+from {{ source('baz', 'source_baz') }}
