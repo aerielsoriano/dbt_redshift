@@ -1,7 +1,5 @@
 {{ config(
-    materialized="materialized_view",
-    on_schema_change="drop",
-    backup=false
+    materialized="materialized_view"
 ) }}
 
 select
